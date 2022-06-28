@@ -8,9 +8,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: black;
+  background: #131416;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 #canvas {
@@ -25,17 +26,4 @@
   width: 50%;
   margin: 50px auto;
   display: block;
-  background: red;
-}
-
-#inner-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 1000%;
-  background: pink;
-  height: 75%;
-  width: 50%;
-  opacity: 0.8;
 }

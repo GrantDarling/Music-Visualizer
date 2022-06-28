@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="visualizer.css" />
   </head>
   <body>
+    <input type="file" onchange="openFile(event)" style="z-index: 9999" />
     <div id="container">
       <canvas id="canvas"></canvas>
       <audio id="audio"></audio>
+
       <!-- <div id="inner-circle"></div> -->
     </div>
     <script src="./visualizer.js"></script>
